@@ -2,9 +2,9 @@
 git clone https://github.com/brenovapo/desenv-sistemas
 
 
-git clone--global user.name "breno"
+git config --global user.name "breno"
 
-git config--global user.email "brenoronaldomatos2014@gmail.com"
+git config --global user.email "brenoronaldomatos2014@gmail.com"
 
 git add .
 
