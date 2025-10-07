@@ -47,6 +47,9 @@ with open ("loja.json", "w") as arquivo:
     #indent -> formatar o arquivo json
 print(" produto cadastrado com sucesso")
         
+
+
+        
 produto_encontrado= False 
 id_produto_modificar = int(input("Digite o id para modificar"))
 nova_quantidade= int(input("Digite a nova quantidade"))
