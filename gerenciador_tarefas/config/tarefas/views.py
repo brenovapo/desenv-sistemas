@@ -10,7 +10,7 @@ def listar_tarefas(request):
     return render(request, 'tarefas/lista.html', contexto)
 
 def detalhe_tarefa(request, tarefa_id):
-    tarefa = get_object_or_404(Tarefas, pk=Tarefas-id)
+    tarefa = get_object_or_404(Tarefas, pk=tarefa_id)
 
     return render(request, 'tarefas/detalhe.html', {'tarefa': tarefa})
 
