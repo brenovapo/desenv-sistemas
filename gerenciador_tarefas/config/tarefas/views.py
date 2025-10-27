@@ -19,10 +19,9 @@ def adicionar_tarefa (request):
   if request.method == 'POST':
     titulo = request.POST.get('titulo')
     descricao = request.POST.get('descricao')
-    Tarefa.objects.create(titulo=titulo,descricao=descricao)
+    Tarefas.objects.create(titulo=titulo,descricao=descricao)
+    return redirect('listar_tarefas')
 
-  return redirect('lista_tarefas')
-
-
+  return render (request,'tarefas/form_tarefa.html')
 
     
