@@ -1,0 +1,34 @@
+O que é qualidade de software?
+
+- Performance - Velocidade
+- Usabilidade - O quão fácil de usar é o sistema
+- Manutenibilidade - É fácil corrigir erros?
+- Confiabilidade - O software funciona corretamente?
+
+O custo do bug - Porque testar importa?
+
+- 1996 - Erro conversão de dados
+- Prejuízo - U$370 milhões 
+- 1999 - Nasa - Perdeu uma sonda
+- Prejuízo - U$125 milhões
+- 1994 - Intel - Cálculo do processador 
+- Prejuízo - U$475 milhões
+
+Diferença Qa x Qc
+                            Foco: Processos
+                           /
+Qa - Garantia de qualidade 
+                           \             
+                            Prevenir defeitos
+
+                            Foco: Produto
+                           /
+Qe - Controle de qualidade 
+                           \
+                            Encontrar defeitos 
+
+Requisitos - Análise - Projeto - Codificação - Implantação
+
+Modelo V
+
+Requisitos - Arquitetura - Projeto - Código - Unidade - Teste de Aceitação - Teste de sistema - Teste de interação
